@@ -1,0 +1,24 @@
+.content {
+  padding: 3rem 0 4rem;
+}
+
+.prose {
+  max-width: 760px;
+}
+
+.prose h2 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.prose h3 {
+  font-size: 1rem;
+  margin-top: 1.25rem;
+}
+
+.prose p,
+.prose li {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--gray-800);
+}

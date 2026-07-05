@@ -1,0 +1,267 @@
+:root {
+  --primary: #f36b21;
+  --primary-dark: #d85a15;
+  --orange: #f36b21;
+  --blue: #227bc3;
+  --blue-dark: #1a5f96;
+  --blue-light: #0986c0;
+  --black: #171717;
+  --black-pure: #000000;
+  --white: #ffffff;
+  --gray-50: #f6f6f6;
+  --gray-100: #e9e9e9;
+  --gray-200: #cccccc;
+  --gray-600: #555555;
+  --gray-800: #333333;
+  --text: #1d1d1d;
+  --font-display: var(--font-lato), "Segoe UI", sans-serif;
+  --font-body: var(--font-roboto), "Segoe UI", sans-serif;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.14);
+  --radius: 12px;
+  --radius-lg: 20px;
+  --max: 1200px;
+  --header-h: 64px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: 500;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+
+h1 {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: min(var(--max), 100% - 2rem);
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1.25rem;
+  background: var(--primary);
+  color: var(--white);
+  border-radius: var(--radius);
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.6rem;
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: var(--white);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-orange {
+  background: var(--orange);
+  color: var(--white);
+  border-color: var(--orange);
+}
+
+.btn-orange:hover {
+  background: #d85a15;
+  color: var(--white);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.btn-ghost:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.btn-whatsapp {
+  background: #25d366;
+  color: var(--white);
+  border-color: #25d366;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+  color: var(--white);
+  box-shadow: var(--shadow-md);
+}
+
+.section-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+}
+
+.section-dark {
+  background: var(--black);
+  color: var(--white);
+}
+
+.section-dark h2,
+.section-dark h3 {
+  color: var(--white);
+}
+
+.section-gray {
+  background: var(--gray-50);
+}
+
+.page-hero {
+  background: linear-gradient(135deg, var(--black) 0%, #2a2a2a 55%, var(--blue-dark) 100%);
+  color: var(--white);
+  padding: calc(var(--header-h) + 1.5rem) 0 1.5rem;
+}
+
+.page-hero h1 {
+  color: var(--white);
+}
+
+.page-hero p {
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 640px;
+  font-size: 1.05rem;
+}
+
+.prose {
+  max-width: 72ch;
+}
+
+.prose ul {
+  padding-left: 1.25rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-h: 56px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

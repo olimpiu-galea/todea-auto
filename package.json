@@ -1,0 +1,25 @@
+{
+  "name": "todea-auto",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:host": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "preview": "next build && npx --yes serve out -p 3000",
+    "start": "next start",
+    "assets:optimize": "python scripts/optimize-public-assets.py",
+    "assets:heroes": "python scripts/build-category-heroes.py",
+    "assets:prune": "python scripts/prune-public-assets.py"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "typescript": "^5.0.0"
+  }
+}
