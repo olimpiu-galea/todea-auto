@@ -28,6 +28,11 @@
   color: var(--orange);
 }
 
+/* Email în topbar — doar desktop */
+.topItemEmail {
+  display: inline;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -177,6 +182,10 @@
   .topbarInner {
     font-size: 0.9rem;
     gap: 0.46rem 1.32rem;
+  }
+
+  .topItemEmail {
+    display: none;
   }
 
   .inner {

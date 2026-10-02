@@ -8,7 +8,7 @@ const InscriereForm = dynamic(() => import("@/components/InscriereForm"), {
 export const metadata: Metadata = {
   title: "Înscriere Online — TODEA AUTO-MOTO Dej",
   description:
-    "Înregistrează-te online la școala de șoferi TODEA AUTO-MOTO Dej. Formular interactiv — trimite datele pe WhatsApp.",
+    "Înregistrează-te online la școala de șoferi TODEA AUTO-MOTO Dej. Completează formularul și trimite înscrierea pe email.",
   alternates: { canonical: "/inscriere-online" },
 };
 
@@ -19,9 +19,9 @@ export default function InscrierePage() {
         <div className="container">
           <h1>Înregistrează-te online</h1>
           <p>
-            Completează formularul interactiv de mai jos și trimite mesajul pe WhatsApp. După
-            trimitere, vei fi contactat(ă) în cel mai scurt timp de un reprezentant al școlii
-            pentru finalizarea înscrierii.
+            Completează formularul de mai jos. La final se deschide emailul către școală cu datele
+            tale — atașează copiile cerute și trimite mesajul. Vei fi contactat(ă) în cel mai scurt
+            timp.
           </p>
         </div>
       </section>

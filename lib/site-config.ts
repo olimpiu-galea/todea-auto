@@ -10,6 +10,7 @@ export const siteConfig = {
   phone: "40767083669",
   phoneDisplay: "+40 767 083 669",
   phoneLocal: "0767 083 669",
+  email: "contact@todea-auto.ro",
   url: "https://www.todea-auto.ro",
   address: {
     street: "Strada 1 Mai Nr 6 ET:1",
@@ -48,6 +49,14 @@ export function whatsappUrl(text?: string) {
 
 export function telUrl() {
   return `tel:${siteConfig.phoneDisplay.replace(/\s/g, "")}`;
+}
+
+export function mailUrl(subject?: string, body?: string) {
+  const params = new URLSearchParams();
+  if (subject) params.set("subject", subject);
+  if (body) params.set("body", body);
+  const q = params.toString();
+  return `mailto:${siteConfig.email}${q ? `?${q}` : ""}`;
 }
 
 export function mapsUrl() {

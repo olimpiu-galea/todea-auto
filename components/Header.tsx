@@ -46,6 +46,9 @@ export default function Header() {
           <a href={`tel:${siteConfig.phoneDisplay.replace(/\s/g, "")}`} className={styles.topItem}>
             📞 {siteConfig.phoneLocal}
           </a>
+          <a href={`mailto:${siteConfig.email}`} className={`${styles.topItem} ${styles.topItemEmail}`}>
+            ✉️ {siteConfig.email}
+          </a>
         </div>
       </div>
 

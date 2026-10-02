@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-import { siteConfig, telUrl, whatsappUrl, mapsUrl, mapsEmbedUrl } from "@/lib/site-config";
+import { siteConfig, telUrl, whatsappUrl, mapsUrl, mapsEmbedUrl, mailUrl } from "@/lib/site-config";
 import styles from "./contact.module.css";
 
 const WhatsAppWizard = dynamic(() => import("@/components/WhatsAppWizard"), {
@@ -43,6 +43,14 @@ export default function ContactPage() {
                 <span className={styles.cardIcon}>💬</span>
                 <span className={styles.cardLabel}>Scrie pe WhatsApp</span>
                 <span className={styles.cardValue}>{siteConfig.phoneLocal}</span>
+              </a>
+              <a
+                href={mailUrl("Informații TODEA AUTO-MOTO")}
+                className={styles.card}
+              >
+                <span className={styles.cardIcon}>✉️</span>
+                <span className={styles.cardLabel}>Trimite email</span>
+                <span className={styles.cardValue}>{siteConfig.email}</span>
               </a>
               <a href={mapsUrl()} className={styles.card} target="_blank" rel="noopener noreferrer">
                 <span className={styles.cardIcon}>📍</span>
