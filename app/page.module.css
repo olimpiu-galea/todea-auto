@@ -233,8 +233,32 @@
 }
 
 @media (max-width: 960px) {
+  .hero {
+    padding: 2rem 0 1.25rem;
+  }
+
   .heroGrid {
     grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  /* doar lead-ul coboară — titlul rămâne sus pe imagine */
+  .lead {
+    margin-top: clamp(5rem, 28vw, 10rem);
+  }
+
+  .heroCta {
+    gap: 0.4rem;
+    flex-wrap: nowrap;
+  }
+
+  .heroCta :global(.btn) {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.68rem;
+    white-space: nowrap;
   }
 
   .serviceGrid {
@@ -252,7 +276,12 @@
     grid-template-columns: 1fr;
   }
 
-  .heroCta .btn {
-    width: 100%;
+  .lead {
+    margin-top: clamp(6rem, 32vw, 11rem);
+  }
+
+  .heroCta :global(.btn) {
+    padding: 0.48rem 0.55rem;
+    font-size: 0.65rem;
   }
 }
