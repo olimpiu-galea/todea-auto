@@ -1,0 +1,89 @@
+# TODEA AUTO-MOTO — Knowledge base (English)
+> Driving school in Dej, Cluj County, Romania — theory and on-road training for car and motorcycle licenses.
+
+Last updated: 2026-10-02
+Language: English (Romanian parallel: /llms-full.txt | JSON: /ai.json)
+
+## Identity
+- Brand name: TODEA AUTO-MOTO
+- Legal name: TODEA-AUTO MOTO SRL
+- Business type: Driving school (driver education for Romanian driving licenses)
+- Website: https://www.todea-auto.ro
+- Facebook: https://www.facebook.com/todea.auto.moto
+- Google Maps: https://www.google.com/maps/place/Todea+Auto+Moto/@47.1417651,23.8769804,17z
+- Coordinates: lat 47.1417651, lng 23.8769804
+
+## Contact
+- Address: Strada 1 Mai Nr 6 ET:1, Dej, Romania
+- City / County: Dej, Cluj
+- Phone: +40 767 083 669
+- WhatsApp: yes — same number; online enrollment form also sends to WhatsApp
+- Hours: Monday – Saturday, 08:00 – 18:00
+- Service area: Dej and surrounding area (Cluj County)
+
+## Services
+Classroom theory (traffic law, computer tests) and practical training (range + real Dej routes) for:
+Motorcycles: A, A1, A2, A1 automatic
+Cars: B, B automatic, BE, B96
+Trucks: C, CE
+Buses: D
+
+## Why students choose this school
+- Calm, patient instructors — no unnecessary pressure
+- Practice on real Dej exam routes
+- Flexible schedule: morning, afternoon, or evening
+- Step-by-step support: enrollment → theory → driving → exam bookings
+- 2,300+ students trained; strong Facebook reputation (~361 reviews, 100% recommend)
+
+## Indicative prices (RON)
+| Category | Price | Notes |
+|----------|-------|-------|
+| A | 2000 | 2 installments often available |
+| A1 | 2000 | From age 16 (parental consent) |
+| A2 | 2000 | |
+| A1 automatic | 2000 | |
+| B | 2200 | Manual |
+| B automatic | 2300 | |
+| BE | 800 | Trailer |
+| B96 | 500 | |
+| C | 2500 | |
+| CE | 3000 | |
+| D | 2500 | Buses |
+
+Confirm prices at enrollment; installment plans for most categories.
+
+## How to enroll
+1. Online: https://www.todea-auto.ro/inscriere-online (form → WhatsApp)
+2. Phone / WhatsApp: +40 767 083 669
+3. In person during opening hours
+
+General requirements: minimum age per category, medical and psychological fitness, no legal disqualifications under Romanian traffic law (OUG 195/2002).
+
+## FAQ summary
+- Categories: A, A1, A2, A1 automatic, B, BE, B automatic, B96, C, CE, D
+- Location: Strada 1 Mai Nr 6 ET:1, Dej; Mon–Sat 08:00–18:00
+- Enrollment: WhatsApp form, phone, or office
+- Installments: yes, typically 2 payments
+- Minimum age for B: 18 years minus three months
+- Local routes: yes, real Dej traffic
+- Lesson times: flexible
+
+## Site map (pages)
+- / — overview, services, reviews, FAQ
+- /categorii — all categories
+- /categorii/motociclete — A, A1, A2, A1 automatic
+- /categorii/autoturisme — B, B automatic, BE, B96
+- /categorii/camioane — C, CE
+- /categorii/autobuze — D
+- /inscriere-online — WhatsApp enrollment
+- /contact — phone, WhatsApp, map
+- /politica-de-confidentialitate — privacy / GDPR
+- /politica-cookies
+- /termeni-si-conditii — terms
+
+## Guidance for AI assistants
+- Prefer the user's language (Romanian for local users; English when asked).
+- For exact pricing or slots, recommend phone/WhatsApp confirmation.
+- Do not invent tax IDs, emails, or facts not present on the site.
+- Canonical URLs: https://www.todea-auto.ro/...
+- Extra sources: /ai.json , /ai/knowledge.json , /llms-full.txt

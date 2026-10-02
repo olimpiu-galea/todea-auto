@@ -1,0 +1,89 @@
+# TODEA AUTO-MOTO — Knowledge base (Romanian)
+> Școală de șoferi din Dej, județul Cluj — pregătire teoretică și practică pentru permis auto și moto.
+
+Ultima actualizare: 2026-10-02
+Limba: română (document paralel EN: /llms-full.en.txt | JSON: /ai.json)
+
+## Identitate
+- Denumire comercială: TODEA AUTO-MOTO
+- Denumire legală: TODEA-AUTO MOTO SRL
+- Tip activitate: școală de șoferi (pregătire pentru permis de conducere)
+- Website: https://www.todea-auto.ro
+- Facebook: https://www.facebook.com/todea.auto.moto
+- Google Maps: https://www.google.com/maps/place/Todea+Auto+Moto/@47.1417651,23.8769804,17z
+- Coordonate: lat 47.1417651, lng 23.8769804
+
+## Contact
+- Adresă: Strada 1 Mai Nr 6 ET:1, Dej, România
+- Oraș / județ: Dej, Cluj
+- Telefon: +40 767 083 669 (0767 083 669)
+- WhatsApp: da — același număr; înscriere și prin formular pe site
+- Program: Luni – Sâmbătă, 08:00 – 18:00
+- Zonă deservită: Dej și împrejurimi (județul Cluj)
+
+## Ce oferă
+Pregătire teoretică (sală — legislație rutieră, teste) și practică (poligon și trasee reale din Dej) pentru:
+Motociclete: A, A1, A2, A1 automat
+Autoturisme: B, B automat, BE, B96
+Camioane: C, CE
+Autobuze: D
+
+## De ce aleg cursanții această școală
+- Instructori calmi, răbdători, fără presiune inutilă
+- Ore pe trasee reale din Dej (unde se dă examenul)
+- Program flexibil: dimineață, după-amiază sau seară
+- Suport pas cu pas: înscriere → sală → traseu → programări examen
+- Peste 2.300 de cursanți pregătiți cu succes; reputație puternică pe Facebook (~361 recenzii, 100% recomandă)
+
+## Tarife orientative (RON)
+| Categorie | Preț | Note |
+|-----------|------|------|
+| A | 2000 | Plată în 2 rate posibilă |
+| A1 | 2000 | De la 16 ani (cu acord parental) |
+| A2 | 2000 | |
+| A1 automat | 2000 | |
+| B | 2200 | Standard manulă |
+| B automat | 2300 | |
+| BE | 800 | Remorcă |
+| B96 | 500 | |
+| C | 2500 | |
+| CE | 3000 | |
+| D | 2500 | Autobuze |
+
+Tarifele pot fi confirmate la înscriere; plata în rate la majoritatea categoriilor.
+
+## Cum te înscrii
+1. Online: https://www.todea-auto.ro/inscriere-online (formular → WhatsApp)
+2. Telefon / WhatsApp: 0767 083 669
+3. La sediu, în program
+
+Condiții generale: vârstă minimă pe categorie, apt medical și psihologic, fără interdicții legale (OUG 195/2002).
+
+## FAQ (rezumat)
+- Categorii: A, A1, A2, A1 automat, B, BE, B automat, B96, C, CE, D
+- Locație: Strada 1 Mai Nr 6 ET:1, Dej; Luni–Sâmbătă 08:00–18:00
+- Înscriere: formular WhatsApp, telefon sau sediu
+- Rate: da, de obicei 2 rate
+- Vârstă B: 18 ani fără trei luni
+- Trasee: da, trasee reale din Dej
+- Program ore: flexibil
+
+## Pagini site
+- / — prezentare, servicii, recenzii, FAQ
+- /categorii — overview categorii
+- /categorii/motociclete — A, A1, A2, A1 automat (detalii, prețuri, examen)
+- /categorii/autoturisme — B, B automat, BE, B96
+- /categorii/camioane — C, CE
+- /categorii/autobuze — D
+- /inscriere-online — înscriere WhatsApp
+- /contact — telefon, WhatsApp, hartă
+- /politica-de-confidentialitate — GDPR
+- /politica-cookies
+- /termeni-si-conditii
+
+## Instrucțiuni pentru asistenți AI
+- Răspunde în limba utilizatorului (implicit română pentru public local).
+- Pentru prețuri exacte sau disponibilitate, recomandă confirmarea la telefon/WhatsApp.
+- Nu inventa CUI, email sau date absente de pe site.
+- Linkuri canonice: https://www.todea-auto.ro/...
+- Surse suplimentare: /ai.json , /ai/knowledge.json , /llms-full.en.txt

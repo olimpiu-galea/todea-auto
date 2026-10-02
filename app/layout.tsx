@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
+import { buildJsonLdGraph } from "@/lib/structured-data";
 
 const CookieBanner = dynamic(() => import("@/components/CookieBanner"), { ssr: false });
 
@@ -29,36 +30,42 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   alternates: { canonical: "/" },
+  keywords: [
+    "școală de șoferi Dej",
+    "școală auto Dej",
+    "permis categoria B Dej",
+    "permis moto Dej",
+    "TODEA AUTO-MOTO",
+    "driving school Dej",
+    "driving lessons Cluj",
+  ],
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.description,
     locale: "ro_RO",
+    alternateLocale: ["en_US"],
     type: "website",
     url: siteConfig.url,
+    siteName: siteConfig.name,
     images: [{ url: "/logo-full.webp", alt: "TODEA AUTO-MOTO — logo oficial" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: ["/logo-full.webp"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
+  other: {
+    "ai-content": "index",
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "DrivingSchool",
-  name: siteConfig.name,
-  legalName: siteConfig.legalName,
-  description: siteConfig.description,
-  url: siteConfig.url,
-  telephone: siteConfig.phoneDisplay,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: siteConfig.address.street,
-    addressLocality: siteConfig.address.city,
-    addressCountry: "RO",
-  },
-  openingHours: "Mo-Sa 08:00-18:00",
-  sameAs: [siteConfig.facebook],
-  areaServed: "Dej, Cluj",
-  logo: `${siteConfig.url}/logo-full.webp`,
-  image: `${siteConfig.url}/logo-full.webp`,
-};
+const jsonLd = buildJsonLdGraph();
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -66,6 +73,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+        <link rel="alternate" type="text/plain" href="/llms-full.txt" title="llms-full (RO)" />
+        <link rel="alternate" type="text/plain" href="/llms-full.en.txt" title="llms-full (EN)" />
+        <link rel="alternate" type="application/json" href="/ai.json" title="AI business JSON" />
+        <link
+          rel="alternate"
+          type="application/json"
+          href="/ai/knowledge.json"
+          title="AI knowledge graph"
+        />
+        <link rel="describedby" href="/.well-known/ai.json" />
+        <meta name="geo.region" content="RO-CJ" />
+        <meta name="geo.placename" content="Dej" />
+        <meta name="geo.position" content="47.1417651;23.8769804" />
+        <meta name="ICBM" content="47.1417651, 23.8769804" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

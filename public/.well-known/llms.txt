@@ -1,0 +1,11 @@
+# AI / agent discovery for https://www.todea-auto.ro
+# See also: /.well-known/ai.json
+
+llms.txt: https://www.todea-auto.ro/llms.txt
+llms-full-ro: https://www.todea-auto.ro/llms-full.txt
+llms-full-en: https://www.todea-auto.ro/llms-full.en.txt
+ai.json: https://www.todea-auto.ro/ai.json
+knowledge.json: https://www.todea-auto.ro/ai/knowledge.json
+sitemap: https://www.todea-auto.ro/sitemap.xml
+contact: +40 767 083 669
+whatsapp: https://wa.me/40767083669

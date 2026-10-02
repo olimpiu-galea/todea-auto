@@ -1,0 +1,270 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DrivingSchool",
+  "@id": "https://www.todea-auto.ro/#organization",
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-02",
+  "url": "https://www.todea-auto.ro",
+  "name": "TODEA AUTO-MOTO",
+  "legalName": "TODEA-AUTO MOTO SRL",
+  "alternateName": ["Todea Auto Moto", "Todea Auto", "Școală de șoferi Todea Dej"],
+  "languages": ["ro", "en"],
+  "description": {
+    "ro": "Școală de șoferi din Dej — pregătire practică și teoretică pentru categoriile A, A1, A2, B, BE, C, CE, D. Instructori calmi, program flexibil.",
+    "en": "Driving school in Dej, Cluj County, Romania — theory and practical training for motorcycle, car, truck and bus licenses (A, B, C, D). Calm instructors, flexible schedule."
+  },
+  "tagline": {
+    "ro": "Școală auto de top în Dej",
+    "en": "Top driving school in Dej"
+  },
+  "telephone": "+40 767 083 669",
+  "telephoneLocal": "0767 083 669",
+  "whatsapp": "https://wa.me/40767083669",
+  "sameAs": [
+    "https://www.facebook.com/todea.auto.moto",
+    "https://www.google.com/maps/place/Todea+Auto+Moto/@47.1417651,23.8769804,17z"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Strada 1 Mai Nr 6 ET:1",
+    "addressLocality": "Dej",
+    "addressRegion": "Cluj",
+    "postalCode": "405200",
+    "addressCountry": "RO",
+    "full": {
+      "ro": "Strada 1 Mai Nr 6 ET:1, Dej, România",
+      "en": "1 Mai Street No. 6, Floor 1, Dej, Romania"
+    }
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 47.1417651,
+    "longitude": 23.8769804
+  },
+  "openingHours": "Mo-Sa 08:00-18:00",
+  "openingHoursText": {
+    "ro": "Luni – Sâmbătă: 08:00 – 18:00",
+    "en": "Monday – Saturday: 08:00 – 18:00"
+  },
+  "areaServed": {
+    "ro": ["Dej", "Cluj", "România"],
+    "en": ["Dej", "Cluj County", "Romania"]
+  },
+  "stats": {
+    "studentsTrained": "2300+",
+    "facebookReviews": 361,
+    "facebookRecommendPercent": 100
+  },
+  "categories": [
+    {
+      "code": "A",
+      "group": { "ro": "Motociclete", "en": "Motorcycles" },
+      "priceRON": 2000,
+      "url": "https://www.todea-auto.ro/categorii/motociclete#a"
+    },
+    {
+      "code": "A1",
+      "group": { "ro": "Motociclete", "en": "Motorcycles" },
+      "priceRON": 2000,
+      "url": "https://www.todea-auto.ro/categorii/motociclete#a1"
+    },
+    {
+      "code": "A2",
+      "group": { "ro": "Motociclete", "en": "Motorcycles" },
+      "priceRON": 2000,
+      "url": "https://www.todea-auto.ro/categorii/motociclete#a2"
+    },
+    {
+      "code": "A1 automat",
+      "group": { "ro": "Motociclete", "en": "Motorcycles" },
+      "priceRON": 2000,
+      "url": "https://www.todea-auto.ro/categorii/motociclete#a1-automat"
+    },
+    {
+      "code": "B",
+      "group": { "ro": "Autoturisme", "en": "Cars" },
+      "priceRON": 2200,
+      "url": "https://www.todea-auto.ro/categorii/autoturisme#b"
+    },
+    {
+      "code": "B automat",
+      "group": { "ro": "Autoturisme", "en": "Cars" },
+      "priceRON": 2300,
+      "url": "https://www.todea-auto.ro/categorii/autoturisme#b-automat"
+    },
+    {
+      "code": "BE",
+      "group": { "ro": "Autoturisme", "en": "Cars" },
+      "priceRON": 800,
+      "url": "https://www.todea-auto.ro/categorii/autoturisme#be"
+    },
+    {
+      "code": "B96",
+      "group": { "ro": "Autoturisme", "en": "Cars" },
+      "priceRON": 500,
+      "url": "https://www.todea-auto.ro/categorii/autoturisme#b96"
+    },
+    {
+      "code": "C",
+      "group": { "ro": "Camioane", "en": "Trucks" },
+      "priceRON": 2500,
+      "url": "https://www.todea-auto.ro/categorii/camioane#c"
+    },
+    {
+      "code": "CE",
+      "group": { "ro": "Camioane", "en": "Trucks" },
+      "priceRON": 3000,
+      "url": "https://www.todea-auto.ro/categorii/camioane#ce"
+    },
+    {
+      "code": "D",
+      "group": { "ro": "Autobuze", "en": "Buses" },
+      "priceRON": 2500,
+      "url": "https://www.todea-auto.ro/categorii/autobuze#d"
+    }
+  ],
+  "payment": {
+    "currency": "RON",
+    "installments": {
+      "ro": "Plată acceptată și în 2 rate pentru majoritatea categoriilor",
+      "en": "Two-installment payment available for most categories"
+    }
+  },
+  "enrollment": {
+    "ro": [
+      "Formular online WhatsApp: https://www.todea-auto.ro/inscriere-online",
+      "Telefon / WhatsApp: +40 767 083 669",
+      "La sediu în programul de lucru"
+    ],
+    "en": [
+      "Online WhatsApp form: https://www.todea-auto.ro/inscriere-online",
+      "Phone / WhatsApp: +40 767 083 669",
+      "In person during opening hours"
+    ]
+  },
+  "highlights": {
+    "ro": [
+      "Instructori calmi și răbdători",
+      "Trasee reale de examen din Dej",
+      "Program flexibil",
+      "Suport până la examen",
+      "Peste 2300 de cursanți pregătiți"
+    ],
+    "en": [
+      "Calm, patient instructors",
+      "Real Dej exam routes",
+      "Flexible schedule",
+      "Support until the exam",
+      "Over 2300 students trained"
+    ]
+  },
+  "faq": [
+    {
+      "q": {
+        "ro": "Ce categorii de permis oferiți?",
+        "en": "Which license categories do you offer?"
+      },
+      "a": {
+        "ro": "Oferim pregătire pentru A, A1, A2, A1 automat, B, BE, B automat, B96, C, CE și D — atât auto cât și moto.",
+        "en": "Training for A, A1, A2, A1 automatic, B, BE, B automatic, B96, C, CE and D — cars and motorcycles."
+      }
+    },
+    {
+      "q": {
+        "ro": "Unde vă aflați?",
+        "en": "Where are you located?"
+      },
+      "a": {
+        "ro": "Strada 1 Mai Nr 6 ET:1, Dej, România. Program: Luni – Sâmbătă, 08:00 – 18:00.",
+        "en": "1 Mai Street No. 6, Floor 1, Dej, Romania. Hours: Monday – Saturday, 08:00 – 18:00."
+      }
+    },
+    {
+      "q": {
+        "ro": "Cum mă pot înscrie?",
+        "en": "How do I enroll?"
+      },
+      "a": {
+        "ro": "Formular interactiv pe site (WhatsApp), telefon 0767 083 669 sau la sediu.",
+        "en": "Interactive site form (WhatsApp), phone +40 767 083 669, or at the office."
+      }
+    },
+    {
+      "q": {
+        "ro": "Acceptați plata în rate?",
+        "en": "Do you accept installment payments?"
+      },
+      "a": {
+        "ro": "Da, pentru majoritatea categoriilor plata este acceptată și în 2 rate.",
+        "en": "Yes, for most categories payment in 2 installments is accepted."
+      }
+    },
+    {
+      "q": {
+        "ro": "Ce vârstă minimă am nevoie pentru categoria B?",
+        "en": "What is the minimum age for category B?"
+      },
+      "a": {
+        "ro": "18 ani fără trei luni, apt medical și psihologic.",
+        "en": "18 years minus three months, medically and psychologically fit."
+      }
+    },
+    {
+      "q": {
+        "ro": "Fac ore pe traseele din Dej?",
+        "en": "Do lessons use Dej exam routes?"
+      },
+      "a": {
+        "ro": "Da. Exersezi pe trasee reale din Dej, în condiții reale de trafic.",
+        "en": "Yes. You practice on real Dej routes in real traffic conditions."
+      }
+    },
+    {
+      "q": {
+        "ro": "Pot alege programul orelor?",
+        "en": "Can I choose lesson times?"
+      },
+      "a": {
+        "ro": "Da. Dimineața, după-amiaza sau seara, în funcție de disponibilitate.",
+        "en": "Yes. Morning, afternoon, or evening, based on availability."
+      }
+    },
+    {
+      "q": {
+        "ro": "Cum vă pot contacta?",
+        "en": "How can I contact you?"
+      },
+      "a": {
+        "ro": "Telefon: 0767 083 669, WhatsApp sau vizită la sediu.",
+        "en": "Phone: +40 767 083 669, WhatsApp, or visit the office."
+      }
+    }
+  ],
+  "pages": [
+    { "path": "/", "title": { "ro": "Acasă", "en": "Home" } },
+    { "path": "/categorii", "title": { "ro": "Categorii", "en": "Categories" } },
+    { "path": "/categorii/motociclete", "title": { "ro": "Motociclete", "en": "Motorcycles" } },
+    { "path": "/categorii/autoturisme", "title": { "ro": "Autoturisme", "en": "Cars" } },
+    { "path": "/categorii/camioane", "title": { "ro": "Camioane", "en": "Trucks" } },
+    { "path": "/categorii/autobuze", "title": { "ro": "Autobuze", "en": "Buses" } },
+    { "path": "/inscriere-online", "title": { "ro": "Înscriere online", "en": "Online enrollment" } },
+    { "path": "/contact", "title": { "ro": "Contact", "en": "Contact" } },
+    { "path": "/politica-de-confidentialitate", "title": { "ro": "Confidențialitate GDPR", "en": "Privacy GDPR" } },
+    { "path": "/politica-cookies", "title": { "ro": "Politica cookies", "en": "Cookie policy" } },
+    { "path": "/termeni-si-conditii", "title": { "ro": "Termeni și condiții", "en": "Terms" } }
+  ],
+  "aiDocuments": {
+    "llmsTxt": "https://www.todea-auto.ro/llms.txt",
+    "llmsFullRo": "https://www.todea-auto.ro/llms-full.txt",
+    "llmsFullEn": "https://www.todea-auto.ro/llms-full.en.txt",
+    "knowledgeJson": "https://www.todea-auto.ro/ai/knowledge.json",
+    "sitemap": "https://www.todea-auto.ro/sitemap.xml"
+  },
+  "agentHints": {
+    "preferredLanguages": ["ro", "en"],
+    "canonicalHost": "https://www.todea-auto.ro",
+    "doNotInvent": ["CUI", "email", "IBAN", "undocumented prices"],
+    "confirmVia": ["phone", "whatsapp"],
+    "primaryCta": "https://www.todea-auto.ro/inscriere-online"
+  }
+}

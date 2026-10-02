@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "name": "TODEA AUTO-MOTO",
+  "description": "Driving school in Dej, Romania / Școală de șoferi Dej",
+  "website": "https://www.todea-auto.ro",
+  "llms_txt": "https://www.todea-auto.ro/llms.txt",
+  "documents": [
+    {
+      "url": "https://www.todea-auto.ro/llms.txt",
+      "type": "llms.txt",
+      "languages": ["ro", "en"]
+    },
+    {
+      "url": "https://www.todea-auto.ro/llms-full.txt",
+      "type": "llms-full",
+      "language": "ro"
+    },
+    {
+      "url": "https://www.todea-auto.ro/llms-full.en.txt",
+      "type": "llms-full",
+      "language": "en"
+    },
+    {
+      "url": "https://www.todea-auto.ro/ai.json",
+      "type": "application/json",
+      "languages": ["ro", "en"]
+    },
+    {
+      "url": "https://www.todea-auto.ro/ai/knowledge.json",
+      "type": "application/json",
+      "languages": ["ro", "en"]
+    }
+  ],
+  "contact": {
+    "phone": "+40 767 083 669",
+    "whatsapp": "https://wa.me/40767083669"
+  }
+}

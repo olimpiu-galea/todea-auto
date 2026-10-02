@@ -1,7 +1,6 @@
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
-import HeroVisual from "@/components/HeroVisual";
 import HeroFacebookReviews from "@/components/HeroFacebookReviews";
 
 import { CATEGORY_GROUPS, SERVICES } from "@/lib/content-data";
@@ -73,8 +72,6 @@ export default function HomePage() {
 
 
           <div className={styles.heroVisual}>
-
-            <HeroVisual />
 
             <HeroFacebookReviews />
 

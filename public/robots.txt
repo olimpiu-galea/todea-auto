@@ -1,22 +1,81 @@
+# TODEA AUTO-MOTO — https://www.todea-auto.ro
+# Allow all crawlers including AI / LLM agents
+
 User-agent: *
 Allow: /
 
+# --- OpenAI ---
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+# --- Anthropic ---
 User-agent: ClaudeBot
 Allow: /
 
 User-agent: anthropic-ai
 Allow: /
 
+User-agent: Claude-Web
+Allow: /
+
+# --- Google AI ---
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# --- Others ---
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: Applebot-Extended
 Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: ImagesiftBot
+Allow: /
+
+# AI discovery documents
+# llms.txt: https://www.todea-auto.ro/llms.txt
+# llms-full (RO): https://www.todea-auto.ro/llms-full.txt
+# llms-full (EN): https://www.todea-auto.ro/llms-full.en.txt
+# ai.json: https://www.todea-auto.ro/ai.json
+# knowledge: https://www.todea-auto.ro/ai/knowledge.json
 
 Sitemap: https://www.todea-auto.ro/sitemap.xml

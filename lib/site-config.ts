@@ -2,8 +2,11 @@ export const siteConfig = {
   name: "TODEA AUTO-MOTO",
   legalName: "TODEA-AUTO MOTO SRL",
   tagline: "Școală auto de top în Dej",
+  taglineEn: "Top driving school in Dej",
   description:
     "Școală de șoferi din Dej — pregătire practică și teoretică pentru categoriile A, A1, A2, B, BE, C, CE, D. Instructori calmi, program flexibil.",
+  descriptionEn:
+    "Driving school in Dej, Cluj County, Romania — theory and practical training for A, B, C, D licenses. Calm instructors, flexible schedule.",
   phone: "40767083669",
   phoneDisplay: "+40 767 083 669",
   phoneLocal: "0767 083 669",
@@ -11,10 +14,17 @@ export const siteConfig = {
   address: {
     street: "Strada 1 Mai Nr 6 ET:1",
     city: "Dej",
+    region: "Cluj",
+    postalCode: "405200",
     country: "România",
     full: "Strada 1 Mai Nr 6 ET:1, Dej, România",
   },
+  geo: {
+    latitude: 47.1417651,
+    longitude: 23.8769804,
+  },
   hours: "Luni – Sâmbătă: 08:00 – 18:00",
+  hoursEn: "Monday – Saturday: 08:00 – 18:00",
   facebook: "https://www.facebook.com/todea.auto.moto",
   /** Profil Google Maps — Todea Auto Moto */
   googleMaps:
@@ -23,6 +33,8 @@ export const siteConfig = {
   stats: {
     students: "500+",
     fleet: "5000+",
+    trained: "2300+",
+    facebookReviews: 361,
   },
 };
 
