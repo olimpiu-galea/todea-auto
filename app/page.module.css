@@ -244,7 +244,7 @@
 
   /* doar lead-ul coboară — titlul rămâne sus pe imagine */
   .lead {
-    margin-top: clamp(5rem, 28vw, 10rem);
+    margin-top: clamp(8rem, 34vw, 13rem);
   }
 
   .heroCta {
@@ -277,7 +277,7 @@
   }
 
   .lead {
-    margin-top: clamp(6rem, 32vw, 11rem);
+    margin-top: clamp(9rem, 38vw, 14rem);
   }
 
   .heroCta :global(.btn) {
